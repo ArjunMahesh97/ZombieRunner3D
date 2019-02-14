@@ -545,7 +545,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e8fbffff00000000
+    m_ExpandedIDs: 761bfcffe8fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -595,14 +595,14 @@ MonoBehaviour:
     width: 1344
     height: 679
   m_SceneLighting: 0
-  lastFramingTime: 97842.8639733876
+  lastFramingTime: 59899.443033754564
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 381.09253, y: 73.904755, z: 500.08862}
+    m_Target: {x: 489.97485, y: 175.28302, z: 325.04248}
     speed: 2
-    m_Value: {x: 381.09253, y: 73.904755, z: 500.08862}
+    m_Value: {x: 489.97485, y: 175.28302, z: 325.04248}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -625,13 +625,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.26408738, y: -0.63425934, z: 0.24483737, w: -0.68412536}
+    m_Target: {x: -0.07467394, y: -0.921875, z: 0.224133, w: -0.30713964}
     speed: 2
-    m_Value: {x: -0.2640874, y: -0.6342594, z: 0.24483739, w: -0.6841254}
+    m_Value: {x: -0.07467394, y: -0.921875, z: 0.224133, w: -0.30713964}
   m_Size:
-    m_Target: 538.8781
+    m_Target: 1896.4834
     speed: 2
-    m_Value: 538.8781
+    m_Value: 1896.4834
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -733,19 +733,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\CODING\GameDev\projects\ZombieRunner
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 103}
-    m_SelectedIDs: 08280000
-    m_LastClickedID: 10248
-    m_ExpandedIDs: 000000003e2500008025000022260000f8260000822900008829000000ca9a3bffffff7f
+    m_SelectedIDs: 3e250000
+    m_LastClickedID: 9534
+    m_ExpandedIDs: 000000003e2500008025000022260000fa260000862900008c29000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -773,7 +773,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003e2500008025000022260000f826000088290000
+    m_ExpandedIDs: 000000003e2500008025000022260000fa260000862900008c290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
