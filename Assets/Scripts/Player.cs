@@ -5,10 +5,11 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
 	public Transform playerSpawnPoints;
-	public bool reSpawn=false;
+	public Helicopter helicopter;
 
 	private Transform[] spawnPoints;
 	private bool lastToggle = false;
+	private bool reSpawn=false;
 
 	// Use this for initialization
 	void Start () {
@@ -29,5 +30,9 @@ public class Player : MonoBehaviour {
 	private void Respawn(){
 		int i = Random.Range (1, spawnPoints.Length);
 		transform.position = spawnPoints [i].transform.position;
+	}
+
+	void OnFindClearArea(){
+		helicopter.Call ();
 	}
 }
