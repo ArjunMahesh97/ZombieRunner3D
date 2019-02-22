@@ -54,6 +54,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_NextStep = m_StepCycle/2f;
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
+
+			AudioSource[] audiosources = GetComponents<AudioSource> ();
+			foreach (AudioSource audioSource in audiosources) {
+				if (audioSource.priority == 128) {
+					m_AudioSource = audioSource;
+				}
+			}
+
 			m_MouseLook.Init(transform , m_Camera.transform);
         }
 

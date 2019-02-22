@@ -6,15 +6,25 @@ public class Player : MonoBehaviour {
 
 	public Transform playerSpawnPoints;
 	public Helicopter helicopter;
+	public AudioClip whatHappened;
 
 	private Transform[] spawnPoints;
 	private bool lastToggle = false;
 	private bool reSpawn=false;
+	private AudioSource innerVoice;
 
 	// Use this for initialization
 	void Start () {
 		spawnPoints = playerSpawnPoints.GetComponentsInChildren<Transform> ();
-		
+		AudioSource[] audiosources = GetComponents<AudioSource> (); 
+		foreach (AudioSource audioSource in audiosources) {
+			if (audioSource.priority == 1) {
+				innerVoice = audioSource;
+			}
+		}
+
+		innerVoice.clip = whatHappened;
+		innerVoice.Play ();
 	}
 	
 	// Update is called once per frame
