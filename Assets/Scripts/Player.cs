@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
 	public Transform playerSpawnPoints;
+	public GameObject landingAreaPrefab;
 
 	private Transform[] spawnPoints;
 	private bool lastToggle = false;
@@ -35,5 +36,6 @@ public class Player : MonoBehaviour {
 	}
 
 	void DropFlare(){
+		Instantiate (landingAreaPrefab, transform.position, transform.rotation);
 	}
 }
